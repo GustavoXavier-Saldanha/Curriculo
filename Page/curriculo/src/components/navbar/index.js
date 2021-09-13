@@ -1,12 +1,12 @@
 import './style.css'
 
 const NavBar = () => {
-  
+
     return (
-  
-      <nav className="navbar ">
-        
-      
+
+        <nav className="navbar ">
+
+
             <ul >
                 <li>
                     <a href="#perfil">Pelfil</a>
@@ -24,9 +24,9 @@ const NavBar = () => {
                     <a href="#contato">Contato</a>
                 </li>
             </ul>
-       
-      </nav>
+
+        </nav>
     )
-  }
-  
-  export default NavBar
+}
+
+export default NavBar
