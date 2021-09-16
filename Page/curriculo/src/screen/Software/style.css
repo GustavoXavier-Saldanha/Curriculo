@@ -1,0 +1,51 @@
+.software {
+  max-width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(#4884c0, #679bcf);
+}
+
+.divisaoColuna {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagemLogoReact {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.imagemLogoJava {
+  width: 130px;
+  height: 110px;
+  margin-right: -5px;
+  margin-top: -5px;
+}
+
+.imagemLogoHtml {
+  width: 120px;
+  height: 100px;
+}
+
+.imagemLogoJavaScript {
+  width: 90px;
+  height: 90px;
+  margin-right: 15px;
+}
+
+.imagemLogoCss {
+  width: 90px;
+  height: 110px;
+  margin-right: 17px;
+}
+
+.graduacaoSoftware {
+  margin-bottom: 45px;
+  display: flex;
+  width: 450px;
+}
+
+.informacaoSoftware {
+  margin-top: 25px;
+}

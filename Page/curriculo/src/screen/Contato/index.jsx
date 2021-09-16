@@ -1,15 +1,14 @@
 import "./style.css";
-import imgReact from "../../components/img/reactLogo.png";
-import imgHtml from "../../components/img/html.png";
-import imgCss from "../../components/img/css.png";
-import imgJavaScript from "../../components/img/javaScript.png";
-import imgJava from "../../components/img/java.png";
+import imgLinkedin from "../../components/img/linkedin.png";
+import imgWhatsapp from "../../components/img/whatsapp.png";
+import imgGitHub from "../../components/img/github.png";
+import imgGmail from "../../components/img/gmail.png";
 
-const Software = () => {
+const Contato = () => {
   return (
-    <section id="software" className="software">
+    <section id="contato" className="contato">
       <div className="titulo">
-        <h2 className="tituloTxt">Softwares</h2>
+        <h2 className="tituloTxt">Contato</h2>
       </div>
 
       <div className="divisaoColuna">
@@ -19,15 +18,15 @@ const Software = () => {
               <div className="contanerImg">
                 <div className="imgLogo">
                   <img
-                    className="imagemLogoReact"
-                    src={imgReact}
-                    alt="Imagem Logo React/Js"
+                    className="imagemWhatsapp"
+                    src={imgWhatsapp}
+                    alt="Imagem Telefone Whatsapp"
                   />
                 </div>
               </div>
               <div className="containerTxt">
                 <div>
-                  <p className="graduacoes">React JS</p>
+                  <p className="graduacoes">(22) 99773-6096</p>
                 </div>
               </div>
             </div>
@@ -38,33 +37,15 @@ const Software = () => {
               <div className="contanerImg">
                 <div className="imgLogo">
                   <img
-                    className="imagemLogoHtml"
-                    src={imgHtml}
-                    alt="Imagem Logo HTML"
+                    className="imagemGmail"
+                    src={imgGmail}
+                    alt="Imagem Gmail"
                   />
                 </div>
               </div>
               <div className="containerTxt">
                 <div>
-                  <p className="graduacoes">HTML</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="graduacaoSoftware">
-              <div className="contanerImg">
-                <div className="imgLogo">
-                  <img
-                    className="imagemLogoCss"
-                    src={imgCss}
-                    alt="Imagem Logo CSS"
-                  />
-                </div>
-              </div>
-              <div className="containerTxt">
-                <div>
-                  <p className="graduacoes">CSS</p>
+                  <p className="graduacoes">gustavosaldxav@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -77,15 +58,15 @@ const Software = () => {
               <div className="contanerImg">
                 <div className="imgLogo">
                   <img
-                    className="imagemLogoJavaScript"
-                    src={imgJavaScript}
-                    alt="Imagem Logo JavaScripT"
+                    className="imagemLinkedin"
+                    src={imgLinkedin}
+                    alt="Imagem Linkedin"
                   />
                 </div>
               </div>
               <div className="containerTxt">
                 <div>
-                  <p className="graduacoes">JavaScript</p>
+                  <p className="graduacoes">Gustavo Xavier</p>
                 </div>
               </div>
             </div>
@@ -97,14 +78,14 @@ const Software = () => {
                 <div className="imgLogo">
                   <img
                     className="imagemLogoJava"
-                    src={imgJava}
+                    src={imgGitHub}
                     alt="Imagem Logo Java"
                   />
                 </div>
               </div>
               <div className="containerTxt">
                 <div>
-                  <p className="graduacoes">Java</p>
+                  <p className="graduacoes">GitHub</p>
                 </div>
               </div>
             </div>
@@ -115,4 +96,4 @@ const Software = () => {
   );
 };
 
-export default Software;
+export default Contato;
